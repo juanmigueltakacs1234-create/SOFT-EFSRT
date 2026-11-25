@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio del Equipo - SOFT-EFSRT</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Segoe UI,Arial,sans-serif;background:#0b1b3a;color:#fff}
+    header{text-align:center;padding:60px 20px;background:linear-gradient(135deg,#0b1b3a,#1e3a8a)}
+    header h1{font-size:2.4rem;color:#fbbf24}
+    section{max-width:1000px;margin:40px auto;padding:0 20px}
+    h2{color:#fbbf24;margin-bottom:16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+    .card{background:#12295a;border-radius:12px;padding:20px;text-align:center;transition:.3s}
+    .card:hover{transform:translateY(-6px);box-shadow:0 8px 20px rgba(0,0,0,.4)}
+    .card .avatar{width:80px;height:80px;border-radius:50%;background:#fbbf24;color:#0b1b3a;
+      display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:bold;margin:0 auto 12px}
+    .card span{color:#93c5fd;font-size:.9rem}
+    ul{padding-left:20px;line-height:1.8}
+    footer{text-align:center;padding:30px;color:#93c5fd}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SOFT-EFSRT</h1>
+    <p>Portafolio del Equipo de Desarrollo</p>
+  </header>
+
+  <section>
+    <h2>Alcance del sistema</h2>
+    <ul>
+      <li>Portal web para la gestión de Experiencias Formativas en Situaciones Reales de Trabajo (EFSRT).</li>
+      <li>Inicio de sesión con múltiples roles de usuario.</li>
+      <li>Dashboard de seguimiento y control.</li>
+      <li>Base de datos normalizada con consultas, vistas y auditoría.</li>
+      <li>Landing page informativa y sección de contacto.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Desarrolladores</h2>
+    <div class="grid">
+      <div class="card"><div class="avatar">J</div><h3>Juan Takacs</h3><span>Líder / Frontend</span></div>
+      <div class="card"><div class="avatar">A</div><h3>Integrante 2</h3><span>Login / Backend</span></div>
+      <div class="card"><div class="avatar">B</div><h3>Integrante 3</h3><span>Dashboard</span></div>
+      <div class="card"><div class="avatar">C</div><h3>Integrante 4</h3><span>Base de datos</span></div>
+    </div>
+  </section>
+
+  <footer>© 2026 Equipo SOFT-EFSRT</footer>
+</body>
+</html>
